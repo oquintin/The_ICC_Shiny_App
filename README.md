@@ -185,4 +185,4 @@ We encourage collaboration and community involvement.
 If you use this app, please cite:
 
 Quintin O., Sarkodie S.K., Hamborg T.
-ICC Shiny App: Managing intra-cluster correlation in cluster randomised trials.
+ICC Shiny App: Estimating, Selecting, Reporting, and Applying intra-cluster correlation in cluster-randomised trials.

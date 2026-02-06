@@ -3,13 +3,13 @@ title: "The ICC Shiny App: an open-source platform for estimating, selecting, re
   and applying intra-cluster correlation coefficients in cluster-randomised trials"
 authors:
 - name: Olivier Quintin
-orcid: 0000-0002-9354-8897
+ orcid: 0000-0002-9354-8897
   affiliation: 1
 - name: Samuel K. Sarkodie
-orcid: 0000-0002-9296-8216
+ orcid: 0000-0002-9296-8216
   affiliation: 2
 - name: Thomas Hamborg
-orcid: 0000-0001-7154-3983
+ orcid: 0000-0001-7154-3983
   affiliation: 1
 date: 6 February 2026
 output:
@@ -216,5 +216,6 @@ We thank colleagues at the Pragmatic Clinical Trials Unit at Queen Mary
 University of London for their support in developing and hosting the ICC
 database, as well as users who have provided feedback on the development
 and functionality of the ICC Shiny App.
+
 
 # References

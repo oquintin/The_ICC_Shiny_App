@@ -1,4 +1,4 @@
-ICC Shiny App — Managing Intra-Cluster Correlation Coefficients (ICCs) in Cluster Randomised Trials
+ICC Shiny App — Estimating, Selecting, Reporting, and Applying Intra-Cluster Correlation Coefficients (ICCs) in Cluster-Randomised Trials
 
 The ICC Shiny App is an open-source R Shiny application that helps researchers, statisticians, and students estimate, interpret, select, and incorporate uncertainty around ICC values when designing Cluster Randomised Trials (CRTs). It integrates multiple published estimation methods, supports uploading user data, and includes a curated ICC database to encourage transparency and improved reporting practice in CRT design.
 

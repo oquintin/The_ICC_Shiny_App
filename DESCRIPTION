@@ -1,0 +1,65 @@
+Package: ICCShinyApp
+Type: Shiny
+Title: ICC Shiny App for Estimating, Selecting, Reporting, and Applying Intra-Cluster Correlation Coefficients in Cluster-Randomised Trials
+Version: 1.0.0
+Authors@R: 
+    c(
+      person("Olivier", "Quintin", role = c("aut", "cre"),
+             email = "olivierquintinpro@qmul.ac.uk"),
+      person("Samuel K.", "Sarkodie", role = "aut"),
+      person("Thomas", "Hamborg", role = "aut")
+    )
+Description: 
+    An R Shiny application supporting the estimation, interpretation, and 
+    appropriate use of intra-cluster correlation coefficients (ICCs) in the 
+    design and analysis of cluster-randomised trials. The app integrates 
+    multiple ICC estimation methods across outcome types, supports 
+    uncertainty modelling, and provides access to a curated ICC database 
+    hosted on REDCap by the Pragmatic Clinical Trials Unit at Queen Mary 
+    University of London.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.0)
+Imports:
+    shiny,
+    shinyjs,
+    bslib,
+    shinythemes,
+    shinydashboard,
+    shinyWidgets,
+    ICCbin,
+    iccCounts,
+    statip,
+    geepack,
+    nlme,
+    lme4,
+    sjstats,
+    tidyverse,
+    stringr,
+    R2jags,
+    bayesmeta,
+    fishmethods,
+    performance,
+    reshape2,
+    readxl,
+    plotly,
+    ggpp,
+    gridExtra,
+    TMB,
+    remotes,
+    glmmTMB,
+    GLMMadaptive,
+    insight,
+    DT,
+    data.table,
+    writexl,
+    ordinal,
+    survival,
+    RColorBrewer,
+    redcapAPI 
+Suggests:
+    knitr,
+    rmarkdown
+RoxygenNote: 7.2.3

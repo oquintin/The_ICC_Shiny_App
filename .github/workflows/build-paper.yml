@@ -1,0 +1,21 @@
+name: Build JOSS paper PDF
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-paper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build paper PDF
+        uses: openjournals/openjournals-docker@latest
+        with:
+          journal: joss
+          paper-path: paper.md
